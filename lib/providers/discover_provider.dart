@@ -2,8 +2,6 @@
 import 'package:flutter/material.dart';
 import 'package:tokto_app/domain/entities/video_post.dart';
 import 'package:tokto_app/domain/repositories/video_posts_repository.dart';
-import 'package:tokto_app/infrastruture/models/local_video_model.dart';
-import 'package:tokto_app/shared/data/local_video_posts.dart';
 
 class DiscoverProvider extends ChangeNotifier {
 
