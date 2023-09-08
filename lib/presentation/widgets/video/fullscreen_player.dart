@@ -37,7 +37,7 @@ class _FullScreenPlayerState extends State<FullScreenPlayer> {
       future: controller.initialize(), 
       builder: (context, snapshot) {
         if ( snapshot.connectionState != ConnectionState.done ) {
-          return const Center(child: CircularProgressIndicator(strokeWidth: 2,));
+          return const Center(child: CircularProgressIndicator(strokeWidth: 2, color: Colors.red,));
         }
 
         return GestureDetector(
